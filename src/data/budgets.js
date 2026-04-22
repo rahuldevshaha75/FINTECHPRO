@@ -1,0 +1,51 @@
+export const budgets = [
+  { id: 1, category: "Food & Dining", limit: 5000, spent: 4500, period: "monthly", color: "#FF6B6B" },
+  { id: 2, category: "Transport", limit: 3000, spent: 2700, period: "monthly", color: "#4ECDC4" },
+  { id: 3, category: "Entertainment", limit: 1500, spent: 900, period: "monthly", color: "#DDA0DD" },
+  { id: 4, category: "Shopping", limit: 4000, spent: 4200, period: "monthly", color: "#98D8C8" },
+  { id: 5, category: "Healthcare", limit: 5000, spent: 4900, period: "monthly", color: "#FFEAA7" },
+  { id: 6, category: "Education", limit: 2000, spent: 750, period: "monthly", color: "#96CEB4" },
+];
+
+export const goals = [
+  {
+    id: 1,
+    name: "Emergency Fund",
+    target: 150000,
+    saved: 85000,
+    deadline: "2025-12-31",
+    icon: "🛡️",
+    color: "#4ECDC4",
+    status: "active",
+  },
+  {
+    id: 2,
+    name: "Laptop Upgrade",
+    target: 80000,
+    saved: 60000,
+    deadline: "2025-06-30",
+    icon: "💻",
+    color: "#45B7D1",
+    status: "active",
+  },
+  {
+    id: 3,
+    name: "Vacation Fund",
+    target: 50000,
+    saved: 18000,
+    deadline: "2025-09-01",
+    icon: "✈️",
+    color: "#FF6B6B",
+    status: "active",
+  },
+  {
+    id: 4,
+    name: "Car Down Payment",
+    target: 200000,
+    saved: 200000,
+    deadline: "2025-03-01",
+    icon: "🚗",
+    color: "#96CEB4",
+    status: "completed",
+  },
+];
