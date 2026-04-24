@@ -67,7 +67,7 @@ export default function Sidebar({ collapsed, onToggle }) {
               color: 'var(--text-primary)',
               whiteSpace: 'nowrap',
             }}>
-              FinTrack<span style={{ color: 'var(--accent-primary)' }}>Pro</span>
+              EasyFin<span style={{ color: 'var(--accent-primary)' }}>Track</span>
             </div>
             <div style={{ fontSize: '10px', color: 'var(--text-muted)', marginTop: '1px' }}>
               Personal Finance
